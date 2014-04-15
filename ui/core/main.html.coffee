@@ -1,0 +1,2 @@
+testCoffee = ()->
+  alert('test')
