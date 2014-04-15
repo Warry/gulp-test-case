@@ -6,7 +6,7 @@ var gulp = require('gulp'),
     paths = {
        scripts:   ['ui/**/*.js'],
        templates: ['ui/**/*.coffee'],
-       styles:    ['ui/**/main.styl', '!ui/**/_*.styl']
+       styles:    ['ui/**/*.styl', '!ui/**/_*.styl']
     },
     dist = 'public'
 
